@@ -92,7 +92,7 @@ def add_s(array_nine)
        a << parts
    else
       parts += "s"  
-   
+   end
   end
   a
 end
