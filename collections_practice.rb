@@ -88,7 +88,11 @@ array_nine = ["hand","feet", "knee", "table"]
 def add_s(array_nine)
   a =[]
   array_nine.each do |parts|
-    a << parts += "s"  
+   if array_nine[1] == parts
+       a << parts
+   else
+      parts += "s"  
+   end
   end
   a
 end
