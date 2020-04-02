@@ -91,7 +91,7 @@ def add_s(array_nine)
    if array_nine[1] == parts
        a << parts
    else
-      parts += "s"  
+    a  << parts += "s"  
    end
   end
   a
